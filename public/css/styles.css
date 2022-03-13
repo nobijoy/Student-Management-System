@@ -1,0 +1,15 @@
+.notice-section{
+    background-image: url("../img/notice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.h-200{height: 200px;}
+.h-250{height: 250px;}
+.h-50{height: 50px !important;}
+.h-20{ font-size: 12px; line-height: 1;}
+.h-550{height: 550px;}
+.h-300{height: 300px;}
+.h-157{height: 157px;}
+
