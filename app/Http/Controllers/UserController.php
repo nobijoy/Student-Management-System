@@ -32,9 +32,9 @@ class UserController extends Controller
         return redirect('/manage-user')->with('message', 'Updated User Info Successfully');
     }
     public function delete($id){
-        $this->users =  User::find($id);
-
-        return view('admin.user.manage', ['users' => $this->users]);
+        $this->user =  User::find($id);
+        $this->user->delete();
+        return redirect('manage-user')->with('message', 'Deleted Successfully');
     }
 
 }
