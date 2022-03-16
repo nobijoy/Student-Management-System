@@ -305,7 +305,7 @@
                     <li class="menu-title">Menu</li>
 
                     <li>
-                        <a href="javascript: void(0);" class="waves-effect">
+                        <a href="{{route('dashboard')}}" class="waves-effect">
                             <i class="bx bx-home-circle"></i>
                             <span>Dashboards</span>
                         </a>

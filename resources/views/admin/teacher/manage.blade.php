@@ -34,7 +34,7 @@
                                 <td>{{$teacher->mobile}}</td>
                                 <td>{{$teacher->address}}</td>
                                 <td><img src="{{asset($teacher->image)}}" alt="" width="50" height="50"></td>
-                                <td>{{$teacher->status}}</td>
+                                <td>{{$teacher->status == 1 ? 'Active' : 'Inactive'}}</td>
                                 <td>
                                     <a href="{{route('edit-teacher', ['id' => $teacher->id])}}" class="btn btn-success btn-sm">
                                         <i class="fa fa-edit"></i>
