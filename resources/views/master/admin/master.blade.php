@@ -341,7 +341,7 @@
                             <span>Course Module</span>
                         </a>
                         <ul class="sub-menu" aria-expanded="false">
-                            <li><a href="crypto-wallet.html">Manage Course</a></li>
+                            <li><a href="{{route('manage-course')}}">Manage Course</a></li>
                         </ul>
                     </li>
 
